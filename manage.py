@@ -114,7 +114,7 @@ def execute_from_command_line(argv: list[str] | None = None) -> None:
     utility = FilteredManagementUtility(argv)
     utility.execute()
 
-
+print("hello")
 if __name__ == "__main__":
     assert_not_running_as_root()
 
